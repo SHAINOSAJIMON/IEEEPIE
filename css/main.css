@@ -2,3 +2,9 @@
     height: 50px;
     width: auto;
 }
+
+.container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
