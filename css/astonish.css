@@ -922,6 +922,7 @@ border-radius: 2px;
 
 #contact .form-group {
 color:#FFF;
+
 }
 
 #contact .form-group input, #contact .form-group textarea {
@@ -931,11 +932,11 @@ border:none;
 padding:12px 10px;
 height:auto;
 font-size:13px;
-border-radius: 2px;
+border-radius: 20px;
 box-shadow:none;
 }
 #contact .form-group textarea {
-border-radius: 2px;
+border-radius: 20px;
 }
 #contact label {
 font-family: 'Raleway', sans-serif;
@@ -953,7 +954,7 @@ margin-top: 10px;
 	display:none;
 }
 .success-field {
-background-color:rgba(71,164,71,0.5) !important;
+background-color:rgba(199, 80, 0, 0.5) !important;
 }
 .required-field {
 background-color:rgba(245,99,99,0.5) !important;
@@ -987,6 +988,7 @@ font-size:13px;
   -webkit-box-shadow: none;
 box-shadow:none;
 }
+
 .form-control:focus {
   border-color: #ccc;
   outline: 0;
