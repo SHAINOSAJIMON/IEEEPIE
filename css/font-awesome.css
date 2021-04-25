@@ -13,7 +13,7 @@
 }
 [class^="fa-"], [class*=" fa-"] {
 	font-family: 'FontAwesome';
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
