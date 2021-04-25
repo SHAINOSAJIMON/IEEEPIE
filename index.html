@@ -42,8 +42,8 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
                     <i class="fa fa-bars fa-fw"></i>
                 </button>
-                <a class="navbar-brand weight-900" href="#home"><img alt="logo" id="logo" src="img/PIE-logo.png"
-                        style="width: 7em"></a>
+                <a class="navbarlogo navbar-brand weight-900" href="#home"><img alt="logo" id="logo"
+                        src="img/PIE-logo.png"></a>
             </div>
             <div class="collapse navbar-collapse" id="main-menu">
                 <ul class="nav navbar-nav navbar-right">
@@ -85,22 +85,34 @@
         <!-- ========== START PARALLAX SLIDER ========== -->
         <div id="slides">
             <div class="slides-container">
-                <div class="parallax img-overlay3"
-                    style="background-image:url(img/banner.jpg); background-repeat: no-repeat center center fixed; background-size: cover; "
-                    data-stellar-background-ratio="0.2">
-                </div>
-                <div class="parallax img-overlay3"
-                    style="background-image:url(img/banner.jpg); background-repeat: no-repeat center center fixed; background-size: cover;  "
-                    data-stellar-background-ratio="0.2">
+                <div class="bg-pie parallax img-overlay3" data-stellar-background-ratio="0.2">
+                    <div class="caption">
+                        <div class="background-image color-white weight-800 uppercase text-center extra-large-caption">
+                        </div>
+                    </div>
+                    <div class="slider-class color-white weight-300 text-center medium-caption">
+                    </div><br />
                 </div>
             </div>
+
+            <div class="parallax img-overlay3"
+                style="background-image:url(img/banner.jpg); background-repeat: no-repeat center center fixed; background-size: cover;  "
+                data-stellar-background-ratio="0.2">
+                <div class="caption">
+                    <div class="background-image color-white weight-800 uppercase text-center extra-large-caption">
+                    </div>
+                    <div class="slider-class color-white weight-300 text-center medium-caption">
+                    </div><br /><br>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!-- =========== START ABOUT SECTION ============ -->
     <section id="about">
         <div class="fullwidth-section">
             <div class="container">
-                <div class="row" style="margin-bottom: 60px;">
+                <div class="row-about row">
 
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h1 class="weight-800 kill-top-margin uppercase">About PIE</h1>
@@ -117,7 +129,7 @@
         </div>
         <!-- FEATURES COUNTERS -->
         <div class="fullwidth-section">
-            <div class="parallax img-overlay3" style="background-image: url('img/pictures/skyscrapers.jpg')"
+            <div class="parallax img-overlay3 counter-img" style="background-image: url('img/pictures/skyscrapers.jpg')"
                 data-stellar-background-ratio="0.2"></div>
             <div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.5);"></div>
             <div class="container">
@@ -140,7 +152,7 @@
     <br><br><br><br>
     <section id="team">
         <div class="container">
-            <div class="row" style="margin-bottom: 20px;">
+            <div class="team-row row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     <h1 class="weight-800 kill-top-margin uppercase">Meet Our Team</h1>
                     <h4 class="weight-400">Meet our team and see why we're passionate about what we do!</h4>
@@ -409,7 +421,7 @@
     <section id="events">
         <div class="fullwidth-section">
             <div class="container">
-                <div class="row" style="margin-bottom: 60px;">
+                <div class="event-row row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h1 class="weight-800 kill-top-margin uppercase">Events</h1>
                         <h4 class="weight-400"></h4>
@@ -457,7 +469,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="blog-img-wrapper">
-                            <img alt="fundraising" src="img/events/event/Fundraising4startup.jpg" class="img-responsive">
+                            <img alt="fundraising" src="img/events/event/Fundraising4startup.jpg"
+                                class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -627,7 +640,7 @@
     <section id="blog">
         <div class="fullwidth-section">
             <div class="container">
-                <div class="row" style="margin-bottom: 60px;">
+                <div class="row-about row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h1 class="weight-800 kill-top-margin uppercase">Awards</h1>
                         <h4 class="weight-400"></h4>
@@ -730,7 +743,7 @@
     <section id="voiceit">
         <div class="fullwidth-section">
             <div class="container">
-                <div class="row" style="margin-bottom: 60px;">
+                <div class="row-about row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h2 class="weight-800 kill-top-margin uppercase">Voice It</h2>
                         <h4 class="weight-400"></h4>
@@ -842,7 +855,7 @@
     <section id="piec">
         <div class="fullwidth-section">
             <div class="container">
-                <div class="row" style="margin-bottom: 60px;">
+                <div class="row-about row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h2 class="weight-800 kill-top-margin uppercase">PIE Community</h2>
                         <h4 class="weight-400"></h4>
@@ -882,7 +895,7 @@
                 data-stellar-background-ratio="0.3"></div>
             <div class="img-overlay-solid" style="background-color:rgba(60,62,71,0.7);"></div>
             <div class="container">
-                <div class="row" style="margin-bottom: 20px;">
+                <div class="team-row row">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <h1 class="weight-800 kill-top-margin uppercase color-white">Contact Us</h1>
                     </div>
@@ -945,14 +958,14 @@
                     <a href="https://www.youtube.com/channel/UCyEPgkXnDnKfYRoLi-JlYbg" target="_blank"><i
                             class="im-youtube"></i></a>
                     <a href="https://www.instagram.com/ieeepie.kerala/" target="_blank"><i class="im-instagram"></i></a>
-                    <img alt="footer logo" class="img-responsive footer-logo ae" data-animation="flip" data-offset="95%"
-                        data-speed="1000" src="img/white-PIE-logo.png" style="width: 13em;">
+                    <img alt="footer logo" class="footerlogo img-responsive footer-logo ae" data-animation="flip"
+                        data-offset="95%" data-speed="1000" src="img/white-PIE-logo.png">
                     <a href="https://www.linkedin.com/company/65670001/admin/" target="_blank"><i
                             class="im-linkedin"></i></a>
                     <a href="https://www.facebook.com/ieeepieks/" target="_blank"><i class="im-facebook"></i></a>
                 </div>
             </div>
-            <div class="row text-center" style="margin-top: 20px">
+            <div class="reservation row text-center">
                 <div class="col-md-12">
                     © Copyright 2021 All Rights Reserved IEEE PIE KS.
                 </div>

@@ -6545,3 +6545,40 @@ width: 100%;
   width: 1170px;
 }
 }
+
+
+.navbarlogo{
+  width: 7em;
+}
+
+.background-image{
+  margin-top: -200px;
+}
+
+.slider-class{
+  letter-spacing: 1px;
+}
+
+.row-about{
+  margin-bottom: 60px;
+}
+
+.team-row{
+  margin-bottom: 20px;
+}
+
+.event-row{
+  margin-bottom: 60px;
+}
+.footerlogo{
+  width: 13em;
+}
+.reservation{
+  margin-top: 20px;
+}
+
+.bg-pie{
+  background-image:url(img/banner.jpg); 
+  background-repeat: no-repeat center center fixed; 
+  background-size: cover; 
+}
