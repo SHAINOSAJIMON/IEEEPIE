@@ -79,19 +79,25 @@ background-attachment: scroll;
 width:100%;
 height:100%;
 position:fixed;
-background-color:#FFF;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color:#101010;
+user-select: none;
 z-index:999999;
 }
-
-.loader-img {
-position:absolute;
-margin:-27px 0 0 -27px;
-top:50%;
-margin-top: -40px;
-left:50%;
-margin-left: -40px;
-text-align:center;
-}
+/*if loader need to be small uncomment below two class*/
+/* .loader-img{
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+} */
+/* .img-of-loader{
+width: 50%;
+height: auto;
+} */
 .color-primary {
 color: #f56363 !important;
 }
