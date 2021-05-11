@@ -6,6 +6,7 @@ html {
      /* font-smoothing: antialiased !important; */
 	text-rendering: optimizeLegibility !important;
 	min-height: 100%;
+  scroll-behavior: smooth !important;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -16,6 +17,21 @@ body {
 	line-height: 1.64285;
 	overflow-x: hidden;
 	height: 100%;
+}
+.landing-btn{
+  position: relative;
+  top: 80%;
+  z-index: 9999;
+	cursor: pointer;
+	transition: 0.5s;
+  background: #cb031e !important;
+}
+.btn:hover{
+	background: rgb(255, 142, 142) !important;
+}
+.landing-overlay{
+  display: flex;
+  justify-content: center;
 }
 a, a:link, a:visited {
 text-decoration: none;
@@ -65,7 +81,7 @@ background-attachment: fixed;
 background-position: top center;
 top: 0;
 left: 0;
-z-index: -1;
+z-index: 6;
 width: 100%;
 height: 100%;
 }
