@@ -2,10 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900,800,500,300,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 html { 
-	-webkit-font-smoothing: antialiased !important;
+	/* -webkit-font-smoothing: antialiased !important; */
      /* font-smoothing: antialiased !important; */
-	text-rendering: optimizeLegibility !important;
-	min-height: 100%;
+	/* text-rendering: optimizeLegibility !important; */
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -16,6 +15,21 @@ body {
 	line-height: 1.64285;
 	overflow-x: hidden;
 	height: 100%;
+}
+.landing-btn{
+  position: relative;
+  top: 80%;
+  z-index: 9999;
+	cursor: pointer;
+	transition: 0.5s;
+  background: #cb031e !important;
+}
+.btn:hover{
+	background: rgb(255, 142, 142) !important;
+}
+.landing-overlay{
+  display: flex;
+  justify-content: center;
 }
 a, a:link, a:visited {
 text-decoration: none;
@@ -65,7 +79,7 @@ background-attachment: fixed;
 background-position: top center;
 top: 0;
 left: 0;
-z-index: -1;
+z-index: 6;
 width: 100%;
 height: 100%;
 }
