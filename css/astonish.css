@@ -1,11 +1,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900,800,500,300,600);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-html { 
-	/* -webkit-font-smoothing: antialiased !important; */
-     /* font-smoothing: antialiased !important; */
-	/* text-rendering: optimizeLegibility !important; */
-}
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #FFF;
